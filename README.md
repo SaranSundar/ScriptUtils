@@ -3,7 +3,7 @@
 rt.py - A script for creating react components either as a class or a component in a folder substructure with the css file.
 
 Usage: python rt.py <f or function c or class> <name of component or class>
-       python rt.py f App
+       \npython rt.py f App
     
 Automatically stores under src/components/{componentName}
 
@@ -11,4 +11,4 @@ sc.py - A script for shallow downloads of folders or a file from a github, can w
 
 Usage: python3 sc.py <GithubRepoOwnerUserName> <RepoName> <RelativePathToFolderOrFileInRepo> <PathToWhereYouWantFileDownloadedToDefaultsTo ./> <Optional access-token-here for your private repos>
 
-       python3 sc.py SaranSundar NSO-GUI react-ui/src/components/NoMatch src/components/NoMatch access-token-here
+       \npython3 sc.py SaranSundar NSO-GUI react-ui/src/components/NoMatch src/components/NoMatch access-token-here
