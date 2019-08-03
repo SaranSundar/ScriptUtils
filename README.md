@@ -10,7 +10,7 @@ Automatically stores under src/components/{componentName}
 
 sc.py - A script for shallow downloads of folders or a file from a github, can work on your private github repos as well if you generate an access token. Super useful for boot strapping react projects by copying over your favorite components from previous projects. Useful in general when you just want a file or a folder from a repo isntead of having to download the entier thing.
 
-Usage: python3 sc.py <GithubRepoOwnerUserName> <RepoName> <RelativePathToFolderOrFileInRepo> <PathToWhereYouWantFileDownloadedToDefaultsTo ./> <Optional access-token-here for your private repos>
+Usage: python3 sc.py \<GithubRepoOwnerUserName> \<RepoName> \<RelativePathToFolderOrFileInRepo> \<PathToWhereYouWantFileDownloadedToDefaultsTo ./> \<Optional access-token-here for your private repos>
 
 python3 sc.py SaranSundar NSO-GUI react-ui/src/components/NoMatch src/components/NoMatch access-token-here
 
