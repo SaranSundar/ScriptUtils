@@ -13,3 +13,5 @@ sc.py - A script for shallow downloads of folders or a file from a github, can w
 Usage: python3 sc.py <GithubRepoOwnerUserName> <RepoName> <RelativePathToFolderOrFileInRepo> <PathToWhereYouWantFileDownloadedToDefaultsTo ./> <Optional access-token-here for your private repos>
 
 python3 sc.py SaranSundar NSO-GUI react-ui/src/components/NoMatch src/components/NoMatch access-token-here
+
+src - A folder for boot strapping a ReactJS project with folder based components to be easily used with rt.py and sc.py and for Project Flair.
